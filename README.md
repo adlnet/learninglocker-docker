@@ -7,8 +7,8 @@ This is a modified version of the original repo from michzimny to match the gene
 ## TL;DR
 To stand up an instance of this LRS, get the repo:
 ```bash
-git clone https://github.com/adlnet/learninglocker-docker ll2-docker
-cd ll2-docker
+git clone https://github.com/adlnet/learninglocker-docker lrs
+cd lrs
 ```
 
 get the Learning Locker repo:
