@@ -36,8 +36,9 @@ sudo ./create-admin.sh admin@example.com MyOrg password
 ## Configuring Office 365 SMTP
 The mailer should be able to use any account and the TLS / Secure settings are already configured to work with Office 365, but the authenticated user must match the user sending the email.  The original LL project does expose the variables to do this, but it wasn't documented super well:
 
-The only two files to change in your `.env` file are:
+The block to change in your `.env` file are:
 ```
+SMTP_HOST=smtp.office.com
 SMTP_USER=your.mail.user@office.com
 SMTP_PASS=your.password
 ```
